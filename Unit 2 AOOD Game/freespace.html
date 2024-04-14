@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="freespace.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+  <body>
+      <h1 id="title" class="w3-monospace">Drawing with a Mouse</h1>
+      <b id="draw" class="w3-monospace">Draw anything you want</b><br>
+      <label id="draw" class="w3-monospace" for="colorpicker">Color Picker:</label><br>
+      <input type="color" id="colorpicker" value="#0000ff" onchange="currentColor=this.value">
+      <hr>
+      <canvas id="canvas"></canvas>
+      <script src="freeSpaceScript.js"></script>
+  </body>
+
+</html>
